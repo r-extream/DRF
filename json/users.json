@@ -1,0 +1,72 @@
+[
+    {
+        "username": "django_1",
+        "email": "django_1@email.local",
+        "password": "geekbrains",
+        "first_name": "django_1",
+        "last_name": "django_1"
+    },
+    {
+        "username": "django_2",
+        "email": "django_2@email.local",
+        "password": "geekbrains",
+        "first_name": "django_2",
+        "last_name": "django_2"
+    },
+    {
+        "username": "django_3",
+        "email": "django_3@email.local",
+        "password": "geekbrains",
+        "first_name": "django_3",
+        "last_name": "django_3"
+    },
+    {
+        "username": "django_4",
+        "email": "django_4@email.local",
+        "password": "geekbrains",
+        "first_name": "django_4",
+        "last_name": "django_4"
+    },
+    {
+        "username": "django_5",
+        "email": "django_5@email.local",
+        "password": "geekbrains",
+        "first_name": "django_5",
+        "last_name": "django_5"
+    },
+    {
+        "username": "django_6",
+        "email": "django_6@email.local",
+        "password": "geekbrains",
+        "first_name": "django_6",
+        "last_name": "django_6"
+    },
+    {
+        "username": "django_7",
+        "email": "django_7@email.local",
+        "password": "geekbrains",
+        "first_name": "django_7",
+        "last_name": "django_7"
+    },
+    {
+        "username": "django_8",
+        "email": "django_8@email.local",
+        "password": "geekbrains",
+        "first_name": "django_8",
+        "last_name": "django_8"
+    },
+    {
+        "username": "django_9",
+        "email": "django_9@email.local",
+        "password": "geekbrains",
+        "first_name": "django_9",
+        "last_name": "django_9"
+    },
+    {
+        "username": "django_10",
+        "email": "django_10@email.local",
+        "password": "geekbrains",
+        "first_name": "django_10",
+        "last_name": "django_10"
+    }
+]
