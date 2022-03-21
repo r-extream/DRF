@@ -8,10 +8,16 @@ class Project(models.Model):
     repo = models.URLField()
     users = models.ManyToManyField(CustomUser)
 
+    def __str__(self):
+        return self.name
 
 class TODO(models.Model):
-    project = models.OneToOneField(Project, on_delete=models.CASCADE)
+    project = models.ForeignKey(Project, on_delete=models.CASCADE)
     todo_text = models.TextField()
     created_at = models.DateTimeField(auto_created=True)
     updated_at = models.DateTimeField(auto_now=True)
     author = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    is_active = models.BooleanField(default=True)
+
+    def __str__(self):
+        return f"{self.todo_text} (project: {self.project.name})"
