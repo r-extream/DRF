@@ -21,3 +21,7 @@ class TODO(models.Model):
 
     def __str__(self):
         return f"{self.todo_text} (project: {self.project.name})"
+
+    def delete(self, using=None, keep_parents=False):
+        current = self.is_active = False
+        return current

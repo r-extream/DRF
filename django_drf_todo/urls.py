@@ -20,12 +20,12 @@ from rest_framework.routers import DefaultRouter
 
 from users.views import CustomUserModelViewSet
 
-from django_drf_todo.todo.views import ProjectsViewSet, ToDoViewSet
+from todo.views import ProjectsViewSet, ToDoViewSet
 
 router = DefaultRouter()
 router.register('users', CustomUserModelViewSet)
 router.register('projects', ProjectsViewSet)
-router.register('todos', ToDoViewSet)
+router.register('todo', ToDoViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
