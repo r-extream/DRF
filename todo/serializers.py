@@ -29,4 +29,5 @@ class TODOSerializer(ModelSerializer):
             'updated_at',
             'is_active',
             'author',
+            'users',
         ]
