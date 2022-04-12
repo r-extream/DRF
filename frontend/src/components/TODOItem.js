@@ -6,6 +6,7 @@ const TODOItem = ({todo}) => {
       <td>{todo.project.name}</td>
       <td>{todo.created_at}</td>
       <td>{todo.updated_at}</td>
+      <td>{todo.is_active}</td>
     </tr>
   )
 };
